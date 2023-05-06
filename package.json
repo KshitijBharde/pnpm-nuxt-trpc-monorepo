@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "run-all-dev": "nx run-many -t dev --all"
   },
   "private": true,
   "dependencies": {
