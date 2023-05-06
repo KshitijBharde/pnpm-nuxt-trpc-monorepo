@@ -12,6 +12,18 @@ Run `nx graph` to see a diagram of the dependencies of the projects.
 
 Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and make CI faster.
 
+## Prerequisite
+- nx: `npm i -g nx`
+- pnpm: `npm i -g pnpm`
+
+## Installation
+Run `pnpm install` at root of repo 
+
+## Starting nuxt trpc app
+Run `pnpm run-all-dev`
+
+Access app at: `http://localhost:3000`
+
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
